@@ -1,0 +1,47 @@
+Requirement 1
+It should allow users to adjust the mass, height and velocity of the object.
+Assumption - There will be input fields where users can enter the mass, height and velocity in suitable units like kilograms for mass, meters for height and meters per second for velocity.
+
+Requirement 2
+It should calculate kinetic energy in real time whenever the user changes the velocity of the object.
+Assumption - The calculation for kinetic energy will be based on the formula where kinetic energy equals half the mass times the square of the velocity. This value will update instantly as the user adjusts the velocity.
+
+Requirement 3
+It should calculate potential energy in real time whenever the user changes the height of the object.
+Assumption - The calculation for potential energy will follow the formula where potential energy equals the mass times gravity times the height. The value will update as soon as the user changes the height input.
+
+Requirement 4
+It should provide a way for users to reset all the inputs back to their default values.
+Assumption - A reset button will be available and when clicked, it will clear all inputs and restore them to their original settings which will allow the user to start fresh.
+
+Requirement 5
+It should display the total mechanical energy by adding the kinetic energy and potential energy.
+Assumption - It will display this total energy on the screen and it will be automatically updated as the kinetic or potential energy values change.
+
+Requirement 6
+It should include a visual representation of how the object energy changes as the user adjusts the inputs.
+Assumption - This visual could be in the form of a line chart that will show how kinetic and potential energy shift when the user changes the mass, height or velocity.
+
+Requirement 7
+It should allow users to select from different gravitational constants like those for Earth, Moon and Mars.
+Assumption - A dropdown menu will let users choose the gravity values for different environments and this choice will affect the potential energy calculations.
+
+Requirement 8
+It should clearly display the correct units for all the values such as joules for energy, kilograms for mass, meters for height and meters per second for velocity.
+Assumption - All displayed values will have their respective units which will make sure that users understand the data they are working with.
+
+Requirement 9
+It should show an error message if a user tries to enter a value that is invalid or non numeric for mass, height or velocity.
+Assumption - It will validate the inputs and if any invalid value is entered then a message will be displayed to inform the user of the issue and request a valid input.
+
+Requirement 10
+It should allow users to pause the real time energy calculations and then resume them after making changes to the inputs.
+Assumption - There will be buttons for pausing and resuming the calculations which will allow users to stop the live updates temporarily without resetting the values.
+
+Requirement 11
+It should work even if there is no internet connection and it should save the most recent input settings locally so that users can pick up where they left off when they return.
+Assumption - It will use local storage to save the user input data so that they do not lose their progress even when offline.
+
+Requirement 12
+It should allow users to save the current state of their simulation and load it later so they can review or continue working on it.
+Assumption - There will be save and load buttons that will enable users to store the current inputs and energy calculations and retrieve them at a later time.
